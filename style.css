@@ -145,6 +145,9 @@ a {
 
 button {
   margin-top: 5px;
+  padding: 3px;
+  background-color: rgba(178, 97, 240, 0.866);
+  color: rgba(255, 255, 255, 0.894);
 }
 
 @keyframes time {
