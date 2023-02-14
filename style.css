@@ -15,14 +15,14 @@ body {
 }
 
 img {
-  width: 95%;
+  width: 100%;
 }
 
 .clock {
   position: relative;
   width: 10rem;
   height: 10rem;
-  background-color: rgba(230, 221, 221, 0.754);
+  background-color: rgba(230, 221, 221, 0.36);
   border-radius: 50%;
   border: 2px solid black;
 }
@@ -33,6 +33,7 @@ img {
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
+  color: aqua;
 }
 
 .num1 {--rotation: 30deg}
